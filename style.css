@@ -1,0 +1,83 @@
+body {
+    background-color: #EDEDED;
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* wrap */
+.wrap {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    width: 525px;
+    height: 500px;
+    border-radius: 5px;
+    box-shadow: 0 8px 20px rgb(157, 157, 157);
+    margin-top: 25px;
+}
+
+
+/* container */
+.container {
+    width: 500px;
+    height: 450px;
+    padding: 0 125px 0 125px ;
+}
+
+/* judul */
+
+.judul {
+    text-align: justify;
+}
+
+.judul a {
+    font-size: 11px;
+    padding: 5px 15px 5px 15px;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    border-radius: 20px;
+}
+
+.unduh {
+    display: flex;
+}
+
+/* sosmed */
+.sosmed {
+    display: flex;
+    justify-content: center;
+    margin-top: 12px;
+    margin-bottom: 5px;
+}
+
+/* container-card */
+.container-card {
+    display: flex;
+    justify-content: center;
+}
+
+/* myCard */
+.myCard {
+    align-items: center;
+    text-align: center;
+    width: 160px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 5px;
+    box-shadow: 0px 3px 10px rgb(199, 199, 199);
+    margin-top: 20px;
+}
+
+.myCard h6 {
+    margin: 0;
+    margin-top: 3px;
+    font-weight: 800;
+}
+
+.myCard p {
+    margin: 0;
+}
+
+
