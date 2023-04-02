@@ -1,0 +1,68 @@
+<html>
+  <head>
+    <title>Batch 46</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <nav>
+      <div class="nav-left">
+        <ul>
+          <li>
+            <a href="home.html">
+              <img src="assets/images/icon/logo.png" />
+            </a>
+          </li>
+          <li>
+            <a class="active" href="home.html">Home</a>
+          </li>
+          <li><a href="#">My Project</a></li>
+        </ul>
+      </div>
+
+      <div class="nav-right">
+        <a href="contact-me.html">Contact Me</a>
+      </div>
+    </nav>
+    <div class="judul">
+      <h3>GET IN TOUCH</h3>
+    </div>
+
+    <form>
+      <div>
+        <label for="name">Name</label>
+        <input type="text" id="name" />
+      </div>
+      <div>
+        <label for="email">Email</label>
+        <input type="email" id="email" />
+      </div>
+      <div>
+        <label for="phone">Phone Number</label>
+        <input type="number" id="phone" />
+      </div>
+
+      <div>
+        <label for="subject">Subject</label>
+        <select id="subject">
+          <option></option>
+          <option>Let's Talk</option>
+          <option>Let's Colaboration</option>
+          <option>I'm Hiring</option>
+        </select>
+      </div>
+      <div>
+        <label for="message">Your Message</label>
+        <textarea id="message"></textarea>
+      </div>
+      <div class="button-submit">
+        <button type="submit" onclick="getData()">Submit</button>
+      </div>
+    </form>
+  </body>
+  <script src="assets/js/script.js"></script>
+</html>
