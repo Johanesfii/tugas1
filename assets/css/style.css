@@ -1,0 +1,239 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: #d4d4db;
+}
+
+
+
+/* HOME */
+
+/* nav */
+nav {
+    background-color: #e8e7e7;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 89px;
+    height: 50px;
+}
+
+nav a {
+    font-size: 14px;
+}
+
+nav img {
+    display: flex;
+    align-items: center;
+    margin-right: 3px;
+    width: 35px;
+}
+
+.nav-left ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+
+.nav-left ul li {
+    margin-right: 30px;
+    
+}
+
+/* .nav-left img {
+    margin-left: 2px;
+} */
+
+.nav-left a {
+    color: black;
+    text-decoration: none;
+}
+
+.nav-left .active {
+    font-weight: bold;
+}
+
+
+
+
+.nav-right {
+    background-color: black;
+    padding: 8px 20px;
+    border-radius: 5px;
+    margin-right: 40px;
+}
+
+.nav-right a {
+    color: white;
+    text-decoration: none;
+}
+
+/* container */
+.container {
+    display: flex;
+    margin: 23px auto;
+    background-color: white;
+    width: 80%;
+    height: 470px;
+    border-radius: 5px;
+    box-shadow: 0 8px 20px rgb(157, 157, 157);
+}
+
+/* wrap */
+.wrap {
+    width: 90%;
+    /* width: 500px; 
+    height: 450px;  */
+    display: flex;
+    justify-content: space-between;
+    margin: 0px auto;
+}
+
+/* my-bio */
+.my-bio {
+    width: 550px;
+    margin: 30px 0px 0px 0px ;
+    text-align: justify;
+}
+
+.my-bio h2 {
+    margin-top: 35px;
+    font-weight: 800
+}
+
+.my-bio .text-bio {
+    font-size: 18px; 
+}
+
+.line-contact-download {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+.line-contact-download a {
+    padding: 5px 20px;
+    font-size: 18px; 
+    text-decoration: none; 
+    color: white; 
+    background-color: black; 
+    border-radius: 20px;
+}
+
+/* link-download */
+.link-download {
+    display: flex;
+    align-items: center;
+}
+
+.link-download p {
+    margin-left: 20px;
+    font-size: 18px
+}
+
+.link-download img {
+    width: 16px;
+    height: 16px;
+    padding-left: 7px;
+    cursor: pointer;
+}
+
+/* my-sosmed */
+.my-sosmed {
+    margin-top: 30px; 
+}
+
+.my-sosmed a {
+    text-decoration: none;
+}
+
+.my-sosmed img {
+    width: 32px; 
+    margin-right: 10px
+}
+
+/* card-body */
+.card-body {
+    box-shadow: 0px 3px 40px rgb(199, 199, 199);
+    margin: 30px 0;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.card-img {
+    align-items: center; 
+    text-align: center; 
+    width: 290px;
+    height: 290px;
+}
+
+.card-img img {
+    width: 290px;
+}
+
+.card-img h3 {
+    margin: 0; 
+    margin-top: 13px; 
+    font-weight: 800;
+}
+
+.card-img p {
+    font-size: 15px; 
+    margin: 0;
+}
+
+/* CONTACT ME */
+
+    /* judul */
+    .judul h3 {
+        font-weight: 800;
+        text-align: center;
+        margin-top: 35px;
+    }
+
+    /* form */
+    form {
+        width: 350px;
+        margin: 30px auto;
+    }
+
+    form div {
+        margin-top: 10px;
+    }
+
+    label {
+        font-size: 15px;
+    }
+
+    input, select, textarea {
+        width: 100%;
+        background-color: #ffffff;
+        border-radius: 5px;
+        border: 1px solid #dbdbdbd6;
+        padding: 10px;
+        margin-top: 5px;
+    }
+
+    textarea {
+        resize: none;
+        height: 100px;
+    }
+
+    /* button */
+
+    .button-submit {
+        display: flex;
+        justify-content: end;
+        margin-top: 30px;
+    }
+
+    .button-submit button {
+        cursor: pointer;
+        color: white;
+        background-color: black;
+        border-radius: 20px;
+        padding: 5px 25px;
+        border: none;
+        font-weight: 800;
+    }
